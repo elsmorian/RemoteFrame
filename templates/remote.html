@@ -1,0 +1,35 @@
+$def with (action,artist,item,album,artavalible)
+<html>
+<head>
+<title>REMOTE</title>
+</head>
+<body>
+
+
+$if action:
+    <p>last action = "$action".</p>
+$else:
+    <p>No action given!</p>
+    
+$if artist:
+    <p>Artist = "$artist".</p>
+$else:
+    <p>Artist = None</p>
+$if item:
+    <p>Track = "$item".</p>
+$else:
+    <p>Track = None</p>
+$if album:
+    <p>Album = "$album".</p>
+$else:
+    <p>Album = None</p>
+$if artavalible:    
+	<img src="/static/artwork.png" alt="Artwork" />    
+$else:
+	<p>Artwork Not Avalible</p>
+	
+<p><a href="/remote?action=playpause">Play/Pause</a></p>
+<p><a href="/remote?action=nextitem">Next</a</p>
+<p><a href="/remote?action=previtem">Prev</a</p>
+</body>
+</html>
