@@ -44,7 +44,8 @@ class remote:
 			print iTunes
 			art = iTunes['iTunesControl'].artwork(320, 320)
 			#print 'art number = '+str(art)
-			if art == 204: #No content
+			if type(art) == int: #Type checking possibly a bad idea!?
+			    #if art == 204 or art == 404: #No content
 				artavalible = False
 			else:
 				tmp = open('static/artwork.png', 'wb')
