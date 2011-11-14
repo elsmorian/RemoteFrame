@@ -1,0 +1,74 @@
+body {
+    background: #333;
+    height: 100%;
+    width: 99%;
+    color: #fff;
+    font: 300 100.1% "Helvetica Neue", Helvetica, "Arial Unicode MS", Arial, sans-serif;
+    padding: 0;
+}
+
+#Header {
+    text-align: center;
+    font-weight: 400;
+    height: 5%;
+}
+
+h1 {
+    font-weight: 400;
+    height: 5%;
+}
+
+#Loading {
+    
+}
+
+#AlbumArt {
+    width: 45%;
+    background: #fff;
+    color: #333;
+    text-align: center;
+    margin: auto;
+    border-radius: 15px;
+    padding: 5px;
+}
+
+#Artwork {
+    min-height: 300px;
+    min-width: 300px;
+    max-width: 600px;
+    max-height: 600px;
+    margin: auto;
+}
+
+#artpic {
+    margin auto;
+    border-radius: 10px;
+    min-height: 450px;
+    min-width: 450px;
+}
+
+#Bio {
+    width: 90%;
+    height: 100%;
+    background: #fff;
+    color: #333;
+    text-align: center;
+    margin:auto;
+    padding: 10px;
+}
+
+#Info {
+    background: #fff;
+    color: #333;
+    text-align: center;
+    margin: auto;
+    border-radius: 15px;
+
+}
+
+#Container {
+    margin: auto;
+    width: 1350px;
+    text-align: center;
+}
+
